@@ -1,0 +1,5 @@
+Archived (removed from the live page) by the chatbot audit 20261125_1518.
+Original file: index.html
+
+/* ===== replaced: synapse note ===== */
+If you use AVIDAA pages with the AI feature (other pages), your Anthropic API key is stored in localStorage — only on your own device, never on a server. Use the Forget bu
