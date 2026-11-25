@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Mono:wght@300;400;500&family=Source+Serif+4:opsz,wght@8..60,300;400;600&display=swap" rel="stylesheet">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G8M1YZQ8WF">
+<script type="text/plain" data-av-archived="tracker src removed; the block below never ran before (src ignores its body) and stays inert">
 // ============ GS ============
 function gxScan(){
   const out = document.getElementById('g-readout');
@@ -88,7 +88,7 @@ function gxScan(){
   const extSrcs = scripts.map(s=>s.src).filter(s=>s&&!s.startsWith(location.origin));
   if(extSrcs.length===0){ ok('gs-scripts','NONE (INLINE ONLY)'); log('External scripts: none found', 'g-line-ok'); }
   else {
-    const knownSafe = ['googleapis.com','googletagmanager.com','fonts.gstatic.com'];
+    const knownSafe = ['googleapis.com','fonts.gstatic.com'];
     const unknown = extSrcs.filter(s=>!knownSafe.some(k=>s.includes(k)));
     if(unknown.length>0){ risk('gs-scripts',unknown.length+' UNKNOWN'); log('External scripts: unknown origins found: '+unknown.join(', '), 'g-line-risk'); }
     else { warn('gs-scripts',extSrcs.length+' TRUSTED ONLY'); log('External scripts: '+extSrcs.length+' found — Google/trusted only', 'g-line-warn'); extSrcs.forEach(s=>log('  '+s,'g-line-info')); }
@@ -158,7 +158,6 @@ async function gxUlk(){
 }
 
 </script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-G8M1YZQ8WF');</script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
 :root{
@@ -1641,7 +1640,7 @@ if(document.readyState==='complete')start();else addEventListener('load',start);
 addEventListener('resize',sched);})();</script><script id="av-shell-20261124">/* AVIDAA shell: shared header (or floating pill) + footer with the "Last updated" stamp. No outside calls, no tracking.
    Template tokens are replaced when a page is built: Synapse --av-knowledge Knowledge 2026-11-24 06:37 */
 (function(){
-  var NAME='Synapse',SECTOR='--av-knowledge',STAMP='2026-11-25 15:20',HOME='https://avidaa1.github.io/';
+  var NAME='Synapse',SECTOR='--av-knowledge',STAMP='2026-11-25 15:57',HOME='https://avidaa1.github.io/';
   var ARROW='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   function build(){
     if(!document.body||document.querySelector('.av-footer'))return;

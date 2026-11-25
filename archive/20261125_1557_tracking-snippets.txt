@@ -1,0 +1,4 @@
+Tracking snippets removed from index.html on 20261125_1557 (AVIDAA: no tracking). Hosts found: googletagmanager.com, www.googletagmanager.com
+
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-G8M1YZQ8WF');</script>
+
